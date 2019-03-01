@@ -1,0 +1,6 @@
+framework module iOSLuckyWheel {
+  umbrella header "iOSLuckyWheel-umbrella.h"
+
+  export *
+  module * { export * }
+}

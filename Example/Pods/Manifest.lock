@@ -1,0 +1,16 @@
+PODS:
+  - iOSLuckyWheel (0.1.0)
+
+DEPENDENCIES:
+  - iOSLuckyWheel (from `../`)
+
+EXTERNAL SOURCES:
+  iOSLuckyWheel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSLuckyWheel: c4f46899a56e8d5dd4f960bb3ac97fd40c27280b
+
+PODFILE CHECKSUM: 773a5185e57bcbbb2045a18f63395929c169a5a5
+
+COCOAPODS: 1.5.3

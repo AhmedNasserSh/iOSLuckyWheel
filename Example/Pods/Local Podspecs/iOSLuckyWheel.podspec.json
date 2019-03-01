@@ -1,0 +1,22 @@
+{
+  "name": "iOSLuckyWheel",
+  "version": "0.1.0",
+  "summary": "A short description of iOSLuckyWheel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ahmed.nasser2310@gmail.com/iOSLuckyWheel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ahmed.nasser2310@gmail.com": "ahmed.nasser2310@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ahmed.nasser2310@gmail.com/iOSLuckyWheel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSLuckyWheel/Classes/**/*"
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSLuckyWheel_Example' do
+  pod 'iOSLuckyWheel', :path => '../'
+
+  target 'iOSLuckyWheel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
