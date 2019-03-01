@@ -67,6 +67,7 @@ func wheelDidChangeValue(_ newValue: Int) // the selected section  postion
 ```
 ## properties
 ```
+public func setTarget(section:Int) // set landing target 
 public var infinteRotation = false // to rotate infinitely 
 public var animateLanding = false // to whether animate after landing or not. 
 public func manualRotation(aCircleTime: Double) // manual rotation with time 
