@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		261DB61215525548BE6BE97870B0BFE9 /* iOSLuckyWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 005880059B29D960241335DA463AEF37 /* iOSLuckyWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5628C7BFECF50F74CF47DBBCC3DABF3E /* iOSLuckyWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A99E3F9011A9EA92ECC6DCD2F5055173 /* iOSLuckyWheel-dummy.m */; };
-		5FE5455A41517E0DC9D7D4686E34C714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3FD47F3DFFE7B41A17B515259642A176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D433228A9E7E99840866656D9A6D0371 /* Foundation.framework */; };
+		5FA40ED4E62ACC68E9C2CAACE361F5E3 /* LuckyWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269AE3296AC4E7DEF0D282B699470A1 /* LuckyWheel.swift */; };
+		5FE5455A41517E0DC9D7D4686E34C714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D433228A9E7E99840866656D9A6D0371 /* Foundation.framework */; };
 		6634461E6FAEABFA23E6632F46C4CC56 /* Pods-iOSLuckyWheel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0ABD06F5D2EF0FB18EA69CFB1F02A3 /* Pods-iOSLuckyWheel_Example-dummy.m */; };
+		7CFBDFA3888015639BB13848C1748A32 /* CircularTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6CF3E7CEF83C1C775FF55709E7A33 /* CircularTextLayer.swift */; };
+		8F8CFF4BB6975D3A1BBBF5C6AFCE7879 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4049C3B542D2F6D18A6EABFA6E09E8 /* CoreGraphics.framework */; };
 		B67945468A965ABBED5F08CB8FBAB5D5 /* Pods-iOSLuckyWheel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 628DBD05AED8737D7275CD99D65CAFB1 /* Pods-iOSLuckyWheel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE39888B22295EB000916E98 /* LuckyWheelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE39888622295EB000916E98 /* LuckyWheelText.swift */; };
-		BE39888C22295EB000916E98 /* LuckyWheelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE39888822295EB000916E98 /* LuckyWheelItem.swift */; };
-		BE39888D22295EB000916E98 /* CircularTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE39888922295EB000916E98 /* CircularTextLayer.swift */; };
-		BE39888E22295EB000916E98 /* LuckyWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE39888A22295EB000916E98 /* LuckyWheel.swift */; };
-		C501356F8C1A56646C56D90E35A84F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BB2008AADE42FA5CB5640F5977C917A4 /* iOSLuckyWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E66AE9565B7A5B588F2C18A58F7417BC /* iOSLuckyWheel-dummy.m */; };
+		C501356F8C1A56646C56D90E35A84F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D433228A9E7E99840866656D9A6D0371 /* Foundation.framework */; };
 		CDA941C85AD38E1B03E40D2981682D81 /* Pods-iOSLuckyWheel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7760B6F3B9DAAE51ACDAE7557B7E6B3B /* Pods-iOSLuckyWheel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D16C9B6CF14A95C49B8D55B23255AC2E /* Pods-iOSLuckyWheel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 612E13C929D67F9F6B42363031F2320B /* Pods-iOSLuckyWheel_Tests-dummy.m */; };
-		E98C97CC5A8BE944DFC54FB527AEB4F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EE4FC336FEDEF58437D83EA229CD3EF1 /* LuckyWheelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C369B94826C290657E61E2F095A11 /* LuckyWheelText.swift */; };
+		F2DC9504AA76F02912C684494FB59522 /* iOSLuckyWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4DB0A78D4E088582F67C936A603A35 /* iOSLuckyWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADEA477BF34098E779AAC17C53DE7D0 /* LuckyWheelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCE93C3A3B5860A1B0CB8E2A90BE99 /* LuckyWheelItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,51 +35,51 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01285B142927F6CD3EFCC2103A0BDE3D;
+			remoteGlobalIDString = FE9CC91B512C88D124530D5FF14713A8;
 			remoteInfo = iOSLuckyWheel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005880059B29D960241335DA463AEF37 /* iOSLuckyWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSLuckyWheel-umbrella.h"; sourceTree = "<group>"; };
+		042DC5DC450D036921D66DC3E45DB06E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0D0E8D1D4E4C5D286D166713E6055BA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2607EDD773D0A8EE2545F546B21B26F1 /* Pods-iOSLuckyWheel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSLuckyWheel_Example.modulemap"; sourceTree = "<group>"; };
-		3D90A70971A207405352C87394607E5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		43B57C694221D5506D7661ADD97544C9 /* iOSLuckyWheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSLuckyWheel-prefix.pch"; sourceTree = "<group>"; };
+		453543F6BCB2D39D9655943C007AA72A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		46EEB6C9FDEF80D812242AF61DFBC17D /* Pods-iOSLuckyWheel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLuckyWheel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4D6EADABC27239B1A78794F2BF116148 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DDCE93C3A3B5860A1B0CB8E2A90BE99 /* LuckyWheelItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuckyWheelItem.swift; path = iOSLuckyWheel/Classes/LuckyWheelItem.swift; sourceTree = "<group>"; };
+		557C369B94826C290657E61E2F095A11 /* LuckyWheelText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuckyWheelText.swift; path = iOSLuckyWheel/Classes/LuckyWheelText.swift; sourceTree = "<group>"; };
 		612E13C929D67F9F6B42363031F2320B /* Pods-iOSLuckyWheel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLuckyWheel_Tests-dummy.m"; sourceTree = "<group>"; };
 		6195376F9EA3DABE853026124B05EA4A /* Pods-iOSLuckyWheel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSLuckyWheel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		628DBD05AED8737D7275CD99D65CAFB1 /* Pods-iOSLuckyWheel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLuckyWheel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		67698BBEEA4456865A3E053626DFB2E5 /* iOSLuckyWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSLuckyWheel.modulemap; sourceTree = "<group>"; };
+		67254FC3EA6A16905BB166C2D303A0BB /* iOSLuckyWheel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSLuckyWheel.xcconfig; sourceTree = "<group>"; };
 		6BED08030D5916E64E3C3F848ABA28D8 /* Pods-iOSLuckyWheel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSLuckyWheel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		70C0D7DD63880949B5FD07B5B88FC6D7 /* Pods-iOSLuckyWheel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSLuckyWheel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		71BCC2B2C99D9CDA5774AABDCDA696EF /* Pods-iOSLuckyWheel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLuckyWheel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7760B6F3B9DAAE51ACDAE7557B7E6B3B /* Pods-iOSLuckyWheel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLuckyWheel_Example-umbrella.h"; sourceTree = "<group>"; };
-		77FA988FDF6A03B204EF32EB12196225 /* iOSLuckyWheel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSLuckyWheel.xcconfig; sourceTree = "<group>"; };
 		787BAA597637B7E01866DC51D9958FD7 /* Pods-iOSLuckyWheel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSLuckyWheel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8192491E4AB192D7820263351957CA6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802692EF0E203B5F7DF4676320720E3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835CE880572E65C024BEDF0DD2524E0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85017FFB08AE9BB2EF8BFEBE753FF4BC /* Pods_iOSLuckyWheel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLuckyWheel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85017FFB08AE9BB2EF8BFEBE753FF4BC /* Pods_iOSLuckyWheel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSLuckyWheel_Tests.framework; path = "Pods-iOSLuckyWheel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		855F71F5242CFEEFE3F3D7DB99B5D09C /* Pods-iOSLuckyWheel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSLuckyWheel_Tests-resources.sh"; sourceTree = "<group>"; };
-		8B3A4F260A5F76DFBECD4CA85E8D20A4 /* iOSLuckyWheel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = iOSLuckyWheel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D076108A4EA385E795738836C04252 /* iOSLuckyWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSLuckyWheel.modulemap; sourceTree = "<group>"; };
+		99A6CF3E7CEF83C1C775FF55709E7A33 /* CircularTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularTextLayer.swift; path = iOSLuckyWheel/Classes/CircularTextLayer.swift; sourceTree = "<group>"; };
 		A111DBE6C49FFB492699CD337D988ACA /* Pods-iOSLuckyWheel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSLuckyWheel_Tests.modulemap"; sourceTree = "<group>"; };
+		A269AE3296AC4E7DEF0D282B699470A1 /* LuckyWheel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuckyWheel.swift; path = iOSLuckyWheel/Classes/LuckyWheel.swift; sourceTree = "<group>"; };
 		A4E007B53EB5A4EC01D850303CBF3A5A /* Pods-iOSLuckyWheel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLuckyWheel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A99E3F9011A9EA92ECC6DCD2F5055173 /* iOSLuckyWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSLuckyWheel-dummy.m"; sourceTree = "<group>"; };
 		BA0ABD06F5D2EF0FB18EA69CFB1F02A3 /* Pods-iOSLuckyWheel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLuckyWheel_Example-dummy.m"; sourceTree = "<group>"; };
-		BE39888622295EB000916E98 /* LuckyWheelText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuckyWheelText.swift; sourceTree = "<group>"; };
-		BE39888722295EB000916E98 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		BE39888822295EB000916E98 /* LuckyWheelItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuckyWheelItem.swift; sourceTree = "<group>"; };
-		BE39888922295EB000916E98 /* CircularTextLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTextLayer.swift; sourceTree = "<group>"; };
-		BE39888A22295EB000916E98 /* LuckyWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuckyWheel.swift; sourceTree = "<group>"; };
+		BC4DB0A78D4E088582F67C936A603A35 /* iOSLuckyWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSLuckyWheel-umbrella.h"; sourceTree = "<group>"; };
 		C10178851B9D2F7C9CA21A6FF469FC08 /* Pods-iOSLuckyWheel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSLuckyWheel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1382BA7CDCD593E46052F5DCFE748DA /* Pods_iOSLuckyWheel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLuckyWheel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1382BA7CDCD593E46052F5DCFE748DA /* Pods_iOSLuckyWheel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSLuckyWheel_Example.framework; path = "Pods-iOSLuckyWheel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACBA75D65B1A8F6CC574D16472960EE /* Pods-iOSLuckyWheel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLuckyWheel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F0E9941CE19AAC480D78AFED0C568A6F /* iOSLuckyWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSLuckyWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D433228A9E7E99840866656D9A6D0371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC4049C3B542D2F6D18A6EABFA6E09E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E66AE9565B7A5B588F2C18A58F7417BC /* iOSLuckyWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSLuckyWheel-dummy.m"; sourceTree = "<group>"; };
+		F0E9941CE19AAC480D78AFED0C568A6F /* iOSLuckyWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSLuckyWheel.framework; path = iOSLuckyWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1052DE74A0B77ACBEB499E0F349211E /* Pods-iOSLuckyWheel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSLuckyWheel_Example-resources.sh"; sourceTree = "<group>"; };
+		F4A0D4EA08D2D35B37A335CB09780211 /* iOSLuckyWheel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = iOSLuckyWheel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F7013F25CAB33B930D4EB2E92CA6E905 /* Pods-iOSLuckyWheel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSLuckyWheel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F8D47B29F9513DB393145AFC3930CED6 /* iOSLuckyWheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSLuckyWheel-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +91,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0AEE6FD952B98DA50950DC92564399C7 /* Frameworks */ = {
+		12BF04A060271B02232CC6D72E1EDD3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98C97CC5A8BE944DFC54FB527AEB4F8 /* Foundation.framework in Frameworks */,
+				8F8CFF4BB6975D3A1BBBF5C6AFCE7879 /* CoreGraphics.framework in Frameworks */,
+				3FD47F3DFFE7B41A17B515259642A176 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,37 +111,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B6162F13CA991EAE75E6053944F1B5D /* iOSLuckyWheel */ = {
+		234A717BC69EEC25541CBC755ED912EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE39888522295EB000916E98 /* Classes */,
-				A14171E09D06EE54890B6355AD0F2859 /* Pod */,
-				334BA86631FD2D61969E506D9FDDFBD7 /* Support Files */,
-			);
-			name = iOSLuckyWheel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		334BA86631FD2D61969E506D9FDDFBD7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8192491E4AB192D7820263351957CA6B /* Info.plist */,
-				67698BBEEA4456865A3E053626DFB2E5 /* iOSLuckyWheel.modulemap */,
-				77FA988FDF6A03B204EF32EB12196225 /* iOSLuckyWheel.xcconfig */,
-				A99E3F9011A9EA92ECC6DCD2F5055173 /* iOSLuckyWheel-dummy.m */,
-				43B57C694221D5506D7661ADD97544C9 /* iOSLuckyWheel-prefix.pch */,
-				005880059B29D960241335DA463AEF37 /* iOSLuckyWheel-umbrella.h */,
+				802692EF0E203B5F7DF4676320720E3F /* Info.plist */,
+				94D076108A4EA385E795738836C04252 /* iOSLuckyWheel.modulemap */,
+				67254FC3EA6A16905BB166C2D303A0BB /* iOSLuckyWheel.xcconfig */,
+				E66AE9565B7A5B588F2C18A58F7417BC /* iOSLuckyWheel-dummy.m */,
+				F8D47B29F9513DB393145AFC3930CED6 /* iOSLuckyWheel-prefix.pch */,
+				BC4DB0A78D4E088582F67C936A603A35 /* iOSLuckyWheel-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/iOSLuckyWheel";
 			sourceTree = "<group>";
 		};
-		4184664E85328245B7A088E54E68B268 /* Development Pods */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2B6162F13CA991EAE75E6053944F1B5D /* iOSLuckyWheel */,
+				A1B60FDF4C4080DE6E10488B9520A2F8 /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		507C70845A7E259B0EAF69D8BDE9A8BC /* Pods-iOSLuckyWheel_Example */ = {
@@ -160,20 +151,22 @@
 			path = "Target Support Files/Pods-iOSLuckyWheel_Example";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		5FA529481E238CD456E30AE26A30DFCB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				F4A0D4EA08D2D35B37A335CB09780211 /* iOSLuckyWheel.podspec */,
+				453543F6BCB2D39D9655943C007AA72A /* LICENSE */,
+				042DC5DC450D036921D66DC3E45DB06E /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4184664E85328245B7A088E54E68B268 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D697765D7851C5CC33F7FA6A57893A51 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				90CD9585EA20939FCCB20CE4A74EFFE1 /* Products */,
 				90DB8582A0B48DAFC0E8BBCF7E666A15 /* Targets Support Files */,
 			);
@@ -198,35 +191,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A14171E09D06EE54890B6355AD0F2859 /* Pod */ = {
+		A1B60FDF4C4080DE6E10488B9520A2F8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8B3A4F260A5F76DFBECD4CA85E8D20A4 /* iOSLuckyWheel.podspec */,
-				3D90A70971A207405352C87394607E5D /* LICENSE */,
-				4D6EADABC27239B1A78794F2BF116148 /* README.md */,
+				DC4049C3B542D2F6D18A6EABFA6E09E8 /* CoreGraphics.framework */,
+				D433228A9E7E99840866656D9A6D0371 /* Foundation.framework */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BE39888522295EB000916E98 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BE39888622295EB000916E98 /* LuckyWheelText.swift */,
-				BE39888722295EB000916E98 /* .gitkeep */,
-				BE39888822295EB000916E98 /* LuckyWheelItem.swift */,
-				BE39888922295EB000916E98 /* CircularTextLayer.swift */,
-				BE39888A22295EB000916E98 /* LuckyWheel.swift */,
-			);
-			name = Classes;
-			path = iOSLuckyWheel/Classes;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		D65EB42C97DE19D5F363D31087AB4548 /* Pods-iOSLuckyWheel_Tests */ = {
@@ -247,6 +218,28 @@
 			path = "Target Support Files/Pods-iOSLuckyWheel_Tests";
 			sourceTree = "<group>";
 		};
+		D697765D7851C5CC33F7FA6A57893A51 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7A433469160E5FD890ED1EBFBF82AD2 /* iOSLuckyWheel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D7A433469160E5FD890ED1EBFBF82AD2 /* iOSLuckyWheel */ = {
+			isa = PBXGroup;
+			children = (
+				99A6CF3E7CEF83C1C775FF55709E7A33 /* CircularTextLayer.swift */,
+				A269AE3296AC4E7DEF0D282B699470A1 /* LuckyWheel.swift */,
+				4DDCE93C3A3B5860A1B0CB8E2A90BE99 /* LuckyWheelItem.swift */,
+				557C369B94826C290657E61E2F095A11 /* LuckyWheelText.swift */,
+				5FA529481E238CD456E30AE26A30DFCB /* Pod */,
+				234A717BC69EEC25541CBC755ED912EE /* Support Files */,
+			);
+			name = iOSLuckyWheel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -258,6 +251,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		656B9471FC43763A4F314CF276C74930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DC9504AA76F02912C684494FB59522 /* iOSLuckyWheel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC137DB31DBCD29698CC569B6370A813 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,34 +267,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF5B80365249D916815F59EA014E87A3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				261DB61215525548BE6BE97870B0BFE9 /* iOSLuckyWheel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01285B142927F6CD3EFCC2103A0BDE3D /* iOSLuckyWheel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA0F91811F8FD4089DB5E42F070C60EB /* Build configuration list for PBXNativeTarget "iOSLuckyWheel" */;
-			buildPhases = (
-				E86A3B0EA4BAFE1F0D3CFD6661E7B5A6 /* Sources */,
-				0AEE6FD952B98DA50950DC92564399C7 /* Frameworks */,
-				DF5B80365249D916815F59EA014E87A3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = iOSLuckyWheel;
-			productName = iOSLuckyWheel;
-			productReference = F0E9941CE19AAC480D78AFED0C568A6F /* iOSLuckyWheel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		1FDF25540E9538000355DC4A99BC6C4A /* Pods-iOSLuckyWheel_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94628FB083F955D5CCD367F67647AF3A /* Build configuration list for PBXNativeTarget "Pods-iOSLuckyWheel_Tests" */;
@@ -330,6 +306,23 @@
 			productReference = C1382BA7CDCD593E46052F5DCFE748DA /* Pods_iOSLuckyWheel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FE9CC91B512C88D124530D5FF14713A8 /* iOSLuckyWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B82690012DB2D4587D80777D435BC01 /* Build configuration list for PBXNativeTarget "iOSLuckyWheel" */;
+			buildPhases = (
+				A5BC8D9610D41F43FFCB72BB1660F922 /* Sources */,
+				12BF04A060271B02232CC6D72E1EDD3A /* Frameworks */,
+				656B9471FC43763A4F314CF276C74930 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSLuckyWheel;
+			productName = iOSLuckyWheel;
+			productReference = F0E9941CE19AAC480D78AFED0C568A6F /* iOSLuckyWheel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -351,7 +344,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01285B142927F6CD3EFCC2103A0BDE3D /* iOSLuckyWheel */,
+				FE9CC91B512C88D124530D5FF14713A8 /* iOSLuckyWheel */,
 				B288241F4A61271DFB503001CA291664 /* Pods-iOSLuckyWheel_Example */,
 				1FDF25540E9538000355DC4A99BC6C4A /* Pods-iOSLuckyWheel_Tests */,
 			);
@@ -375,15 +368,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E86A3B0EA4BAFE1F0D3CFD6661E7B5A6 /* Sources */ = {
+		A5BC8D9610D41F43FFCB72BB1660F922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE39888E22295EB000916E98 /* LuckyWheel.swift in Sources */,
-				5628C7BFECF50F74CF47DBBCC3DABF3E /* iOSLuckyWheel-dummy.m in Sources */,
-				BE39888D22295EB000916E98 /* CircularTextLayer.swift in Sources */,
-				BE39888B22295EB000916E98 /* LuckyWheelText.swift in Sources */,
-				BE39888C22295EB000916E98 /* LuckyWheelItem.swift in Sources */,
+				7CFBDFA3888015639BB13848C1748A32 /* CircularTextLayer.swift in Sources */,
+				BB2008AADE42FA5CB5640F5977C917A4 /* iOSLuckyWheel-dummy.m in Sources */,
+				5FA40ED4E62ACC68E9C2CAACE361F5E3 /* LuckyWheel.swift in Sources */,
+				FADEA477BF34098E779AAC17C53DE7D0 /* LuckyWheelItem.swift in Sources */,
+				EE4FC336FEDEF58437D83EA229CD3EF1 /* LuckyWheelText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +392,7 @@
 		EC4873F7A6F37A5769CE4508B43931B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSLuckyWheel;
-			target = 01285B142927F6CD3EFCC2103A0BDE3D /* iOSLuckyWheel */;
+			target = FE9CC91B512C88D124530D5FF14713A8 /* iOSLuckyWheel */;
 			targetProxy = AAAA9260C914A8FE4BEDAA78A7395F4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,39 +430,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		252143971E8549167CDF38211E12EF99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77FA988FDF6A03B204EF32EB12196225 /* iOSLuckyWheel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSLuckyWheel/iOSLuckyWheel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSLuckyWheel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iOSLuckyWheel/iOSLuckyWheel.modulemap";
-				PRODUCT_MODULE_NAME = iOSLuckyWheel;
-				PRODUCT_NAME = iOSLuckyWheel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		53B8C241BE340613DD969A9C538A9673 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -569,38 +529,6 @@
 			};
 			name = Debug;
 		};
-		9C7F7EBE6073CD6008474D0C8996BB50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77FA988FDF6A03B204EF32EB12196225 /* iOSLuckyWheel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSLuckyWheel/iOSLuckyWheel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSLuckyWheel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iOSLuckyWheel/iOSLuckyWheel.modulemap";
-				PRODUCT_MODULE_NAME = iOSLuckyWheel;
-				PRODUCT_NAME = iOSLuckyWheel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -656,6 +584,71 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA692847DB22DEBFDD5FCDBF23F20115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67254FC3EA6A16905BB166C2D303A0BB /* iOSLuckyWheel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSLuckyWheel/iOSLuckyWheel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSLuckyWheel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSLuckyWheel/iOSLuckyWheel.modulemap";
+				PRODUCT_MODULE_NAME = iOSLuckyWheel;
+				PRODUCT_NAME = iOSLuckyWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D94D5F6E36344E23440340E778C11B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67254FC3EA6A16905BB166C2D303A0BB /* iOSLuckyWheel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSLuckyWheel/iOSLuckyWheel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSLuckyWheel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSLuckyWheel/iOSLuckyWheel.modulemap";
+				PRODUCT_MODULE_NAME = iOSLuckyWheel;
+				PRODUCT_NAME = iOSLuckyWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -740,6 +733,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6B82690012DB2D4587D80777D435BC01 /* Build configuration list for PBXNativeTarget "iOSLuckyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA692847DB22DEBFDD5FCDBF23F20115 /* Debug */,
+				D94D5F6E36344E23440340E778C11B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		94628FB083F955D5CCD367F67647AF3A /* Build configuration list for PBXNativeTarget "Pods-iOSLuckyWheel_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -754,15 +756,6 @@
 			buildConfigurations = (
 				F8C14509A959E12682DAE5A277471DE8 /* Debug */,
 				53B8C241BE340613DD969A9C538A9673 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA0F91811F8FD4089DB5E42F070C60EB /* Build configuration list for PBXNativeTarget "iOSLuckyWheel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C7F7EBE6073CD6008474D0C8996BB50 /* Debug */,
-				252143971E8549167CDF38211E12EF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

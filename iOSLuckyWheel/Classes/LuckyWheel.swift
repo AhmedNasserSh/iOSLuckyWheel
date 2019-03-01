@@ -48,11 +48,15 @@ open class LuckyWheel :UIControl{
     var animationDelayInSeconds: Double = 4
     override public init(frame: CGRect) {
         super.init(frame: frame)
-        wheelRadius = self.frame.size.width / 4
-        self.isOpaque = false
+        commInit()
     }
     required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
+        commInit()
+    }
+    func commInit(){
+        wheelRadius = self.frame.size.width / 4
+        self.isOpaque = false
     }
     public func setTarget(section:Int){
         assert(section <= (dataSource?.numberOfSections())!, "selected Section is out of bounds")
@@ -136,19 +140,20 @@ open class LuckyWheel :UIControl{
         selectdSection = selectdSection + 1
         if isAnimating {
             self.isAnimating = false
+            let time :Double = infinteRotation ? 2 : 4
             let zKeyPath = "layer.presentationLayer.transform.rotation.z"
             let currentRotation = (self.value(forKeyPath: zKeyPath) as? NSNumber)?.floatValue ?? 0.0
             let toArrow =  ( angleSize * CGFloat(selectdSection ) - angleSize)
             let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation")
             rotationAnimation.fromValue = currentRotation
             rotationAnimation.toValue = torad(toArrow) +  2 * .pi
-            rotationAnimation.duration = 2
+            rotationAnimation.duration = CFTimeInterval(time)
             rotationAnimation.fillMode = CAMediaTimingFillMode.forwards
             rotationAnimation.isRemovedOnCompletion = false
             layer.add(rotationAnimation, forKey: nil)
             rotationAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
             let aniamtedSection = selectdSection - 1
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: {
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + time, execute: {
                 self.getSelectedSector(aniamtedSection)
             })
         }
