@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/cocoapods/l/SmoothPicker.svg?style=flat)](https://cocoapods.org/pods/SmoothPicker)
 [![Platform](https://img.shields.io/cocoapods/p/iOSLuckyWheel.svg?style=flat)](https://cocoapods.org/pods/iOSLuckyWheel)
 
-
+An iOS Lucky wheel with customizable text and text colors and section colors and very easy to integrate 
 ![Alt Text](https://media.giphy.com/media/RHIqv3l88Ewczkju60/giphy.gif) 
 
 
