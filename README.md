@@ -3,8 +3,9 @@
 [![License](https://img.shields.io/cocoapods/l/SmoothPicker.svg?style=flat)](https://cocoapods.org/pods/SmoothPicker)
 [![Platform](https://img.shields.io/cocoapods/p/iOSLuckyWheel.svg?style=flat)](https://cocoapods.org/pods/iOSLuckyWheel)
 
-<p align="center">
-<img align=center src="https://media.giphy.com/media/RHIqv3l88Ewczkju60/giphy.gif" width="400" height="800" /></p>
+
+![Alt Text](https://media.giphy.com/media/RHIqv3l88Ewczkju60/giphy.gif) 
+
 
 ## Example
 
