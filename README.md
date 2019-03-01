@@ -2,6 +2,7 @@
 [![Version](https://img.shields.io/cocoapods/v/iOSLuckyWheel.svg?style=flat)](https://cocoapods.org/pods/iOSLuckyWheel)
 [![License](https://img.shields.io/cocoapods/l/SmoothPicker.svg?style=flat)](https://cocoapods.org/pods/SmoothPicker)
 [![Platform](https://img.shields.io/cocoapods/p/iOSLuckyWheel.svg?style=flat)](https://cocoapods.org/pods/iOSLuckyWheel)
+[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://swift.org/)
 
 An iOS Lucky wheel with customizable text and text colors and section colors and very easy to integrate 
 ![Alt Text](https://media.giphy.com/media/RHIqv3l88Ewczkju60/giphy.gif) 
