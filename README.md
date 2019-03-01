@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/cocoapods/l/SmoothPicker.svg?style=flat)](https://cocoapods.org/pods/SmoothPicker)
 [![Platform](https://img.shields.io/cocoapods/p/iOSLuckyWheel.svg?style=flat)](https://cocoapods.org/pods/iOSLuckyWheel)
 
+![Alt Text](https://media.giphy.com/media/RHIqv3l88Ewczkju60/giphy.gif) 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -76,5 +78,4 @@ public func stop() // manual Stop
 ## License
 
 iOSLuckyWheel is available under the MIT license. See the LICENSE file for more info.
-# iOSLuckyWheel
 
