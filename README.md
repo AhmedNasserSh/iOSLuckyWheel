@@ -19,12 +19,64 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'iOSLuckyWheel'
 ```
+# Usage
 
-## Author
+Create the view extending LuckWheel by frame 
+<br />
 
-ahmed.nasser2310@gmail.com, ahmed.nasser2310@gmail.com
+```
+import iOSLuckyWheel
+class ViewController: UIViewController,LuckyWheelDataSource,LuckyWheelDelegate {
+    var wheel :LuckyWheel?
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        wheel = LuckyWheel(frame: CGRect(x: 0, y: 0, width: view.frame.width - 40 , height: 300))
+        wheel?.delegate = self
+        wheel?.dataSource = self
+        wheel?.center = self.view.center
+        wheel?.setTarget(section: 5)
+        wheel?.animateLanding = true
+        self.view.addSubview(wheel!)
+    }
+    func numberOfSections() -> Int {
+        return 8
+    }
+    func itemsForSections() -> [WheelItem] {
+        let item = WheelItem(title: "Welcome to iOS Lucky Wheel", titleColor: UIColor.black, alpha: 1))
+        return [item,item,item,item,item,item,item,item]
+    }
+    func wheelDidChangeValue(_ newValue: Int) {
+        print(newValue)
+    }
+    
+}
+```
+
+## Data Source
+```
+func numberOfSections() ->Int // number of wheel sections
+func itemsForSections() -> [WheelItem] // the items to be displayed
+```
+## Delegate
+```
+func wheelDidChangeValue(_ newValue: Int) // the selected section  postion
+@objc optional func lastAnimation() ->CABasicAnimation // custom animation after landing 
+@objc optional func landingPostion() ->LandingPostion  // the landing postion [top,bottom,left,right]
+```
+## properties
+```
+public var infinteRotation = false // to rotate infinitely 
+public var animateLanding = false // to whether animate after landing or not. 
+public func manualRotation(aCircleTime: Double) // manual rotation with time 
+public func stop() // manual Stop
+```
+
+## Authors
+
+* **Ahmed Nasser** - [AvaVaas](https://github.com/AvaVaas)
 
 ## License
 
 iOSLuckyWheel is available under the MIT license. See the LICENSE file for more info.
 # iOSLuckyWheel
+
