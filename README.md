@@ -44,7 +44,7 @@ class ViewController: UIViewController,LuckyWheelDataSource,LuckyWheelDelegate {
         return 8
     }
     func itemsForSections() -> [WheelItem] {
-        let item = WheelItem(title: "Welcome to iOS Lucky Wheel", titleColor: UIColor.black, alpha: 1))
+        let item = WheelItem(title: "Welcome to iOS Lucky Wheel", titleColor: UIColor.white, itemColor: UIColor.blue)
         return [item,item,item,item,item,item,item,item]
     }
     func wheelDidChangeValue(_ newValue: Int) {
