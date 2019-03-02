@@ -66,6 +66,7 @@ func wheelDidChangeValue(_ newValue: Int) // the selected section  postion
 @objc optional func lastAnimation() ->CABasicAnimation // custom animation after landing 
 @objc optional func landingPostion() ->LandingPostion  // the landing postion [top,bottom,left,right]
 ```
+the landing position is the direction whrere the wheel stops after selecting a section 
 <img src="wheelLanding.png" width="300" />
 
 ## properties
