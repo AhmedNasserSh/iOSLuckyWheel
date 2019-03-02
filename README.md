@@ -6,7 +6,7 @@
 
 An iOS Lucky wheel with customizable text and text colors and section colors and very easy to integrate 
 ![Alt Text](https://media.giphy.com/media/RHIqv3l88Ewczkju60/giphy.gif) 
-![Alt Text](https://media.giphy.com/media/39u3xwwJrGL3ffuSdt/giphy.gif) 
+<img src="Wheel.png" width="300" />
 
 ## Example
 
