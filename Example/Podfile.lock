@@ -1,5 +1,5 @@
 PODS:
-  - iOSLuckyWheel (0.1.0)
+  - iOSLuckyWheel (0.1.1)
 
 DEPENDENCIES:
   - iOSLuckyWheel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  iOSLuckyWheel: fdf931aefc0d2422e187adfd64deb72d2fd0c8e3
+  iOSLuckyWheel: 741c629baf514adb659ed05c22062bba3298b897
 
 PODFILE CHECKSUM: 773a5185e57bcbbb2045a18f63395929c169a5a5
 

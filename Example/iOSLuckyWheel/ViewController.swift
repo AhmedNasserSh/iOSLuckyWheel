@@ -17,13 +17,14 @@ class ViewController: UIViewController,LuckyWheelDataSource,LuckyWheelDelegate {
         wheel?.dataSource = self
         wheel?.center = self.view.center
         wheel?.setTarget(section: 5)
+        wheel?.animateLanding = true
         self.view.addSubview(wheel!)
     }
     func numberOfSections() -> Int {
         return 8
     }
     func itemsForSections() -> [WheelItem] {
-        let item = WheelItem(title: "Welcome to iOS Lucky Wheel", titleColor: #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0), itemColor: #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1))
+        let item = WheelItem(title: "Welcome to iOS Lucky Wheel", titleColor: UIColor.white, itemColor: UIColor.purple)
         return [item,item,item,item,item,item,item,item]
     }
     func wheelDidChangeValue(_ newValue: Int) {
